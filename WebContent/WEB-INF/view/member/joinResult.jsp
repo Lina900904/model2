@@ -11,14 +11,7 @@
 </head>
 <body>
 	
-	<% 
-	MemberBean mem = new MemberBean();
-	mem.setId(request.getParameter("userid"));
-	mem.setName(request.getParameter("name"));
-	mem.setPassword(request.getParameter("password"));
-	mem.setSsn(request.getParameter("ssn"));
-	MemberServiceImpl.getInstance().membercreateJoin(mem);
-%>
+
 <form action="/member/user_login_form.do">
 	<input type="submit" value="로그인하러가기" />
 </form>

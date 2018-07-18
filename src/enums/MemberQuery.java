@@ -72,6 +72,7 @@ public enum MemberQuery {
 					+ "  WHERE TEAM_ID LIKE '%s' " ;
 			
 			break;
+	
 		}
 	
 	

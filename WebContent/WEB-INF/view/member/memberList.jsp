@@ -36,7 +36,7 @@
 		
 			<%}	%>
 	</table>
-	
+	<input type="hidden" name = "action" value = "memberlist" />
 	
 	
 </body>

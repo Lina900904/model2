@@ -16,7 +16,7 @@ String ctx = application.getContextPath();  //서블릿의 설정값을 가져�
 <meta charset="UTF-8" />
 <title>HELLO</title>
 
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="resources/css/style.css" />
 </head>
 <body>
 
@@ -28,15 +28,15 @@ String ctx = application.getContextPath();  //서블릿의 설정값을 가져�
 		<tr class="height-100">
 			<th class="weight-full height-100" colspan="2"><img
 				class="width-20 height-100  margin-outo"
-				src="img/home/turtle.PNG"><h1>★☆★☆★☆Turtle King★☆★☆★☆</h1>
-				<img  class="main-tab layout; flot:right" src="img/home/serch.PNG"></th>
+				src="resources/img/home/turtle.PNG"><h1>★☆★☆★☆Turtle King★☆★☆★☆</h1>
+				<img  class="main-tab layout; flot:right" src="resources/img/home/serch.PNG"></th>
 	
 
 		</tr>
 		<tr class="height-500 width-60 ">
 
 			<td id="main-tab layout" class=" height-350 width-60"><br /> 
-			<img class="main-tab layout " src="img/home/Main.PNG">
+			<img class="main-tab layout " src="resources/img/home/Main.PNG">
 			<td class="height-350 width-20 margin-outo">
 
 				<ul>
@@ -51,13 +51,13 @@ String ctx = application.getContextPath();  //서블릿의 설정값을 가져�
 					
 				</ul> <a class="width-full width-full margin-outo"
 				href="../../html/mypage/mypage.html"> </a>
-				<img class="main-tab layout " src="img/home/menu.PNG">
+				<img class="main-tab layout " src="resources/img/home/menu.PNG">
 			</td>
 		</tr>
 
 		<tr class="height-100 margin-outo">
 			<td class="margin-outo" colspan="2"><img
-				class="main-tab layout " src="img/home/under.PNG"></td>
+				class="main-tab layout " src="resources/img/home/under.PNG"></td>
 
 		</tr>
 	</table>

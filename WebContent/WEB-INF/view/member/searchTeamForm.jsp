@@ -16,7 +16,7 @@ String ctx = application.getContextPath();  //서블릿의 설정값을 가져�
 <form id = "searchTeamForm" action="<%=ctx %>/member.do">
 팀명 <input type="text" name = "teamid" />
 <input type="submit"  value = "확인"/>
-<input type="hidden" name = "action" value = "move"/>
+<input type="hidden" name = "action" value = "serchMemberByTeam"/>
 <input type="hidden" name = "page" value = "searchTeamResult" />
 	</form>
 </body>

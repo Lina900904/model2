@@ -16,7 +16,7 @@ String ctx = application.getContextPath();  //서블릿의 설정값을 가져�
 <form id = "delete_Form" action="<%=ctx %>/member.do">
 아이디: <input type="text" name = "id" />
 비밀번호:<input type="text" name = "pass" />
-<input type="hidden" name = "action" value = "deleteForm"/>
+<input type="hidden" name = "action" value = "memberDelete"/>
 <input type="hidden" name = "page" value = "deleteResult" />
 <input type="submit" value= "전송" />
 

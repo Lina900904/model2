@@ -21,7 +21,9 @@ NAME <input type="text" name = "name" /><br />
 PASSWORD <input type="text" name = "password" /><br />
 주민등록번호 <input type="text" name = "ssn" /><br />
 <br />
-<input type="hidden" name = "action" value = "move"/>
+<input type="hidden" name = "action" value = "join" />
+
+
 <input type="hidden" name = "page" value = "joinResult" />
 <input type="submit" value = "전송" />
 

@@ -20,8 +20,10 @@ String ctx = application.getContextPath();  //서블릿의 설정값을 가져�
 	PassWord: <br /><input type="text" name = "password"  /><br />
 	<br />
 	<input type="submit" value="전송" />
-<input type="hidden" name = "action" value = "move"/>
+ <input type="hidden" name = "action" value = "login"/>
 <input type="hidden" name = "page" value = "user_login_result" />
+
+
 	</form>
 	</div>
 </body>

@@ -18,7 +18,7 @@ String ctx = application.getContextPath();  //서블릿의 설정값을 가져�
 비밀번호:<input type="text" name = "pass" />
 새 비밀번호: <input type="text" name = "newpass" />
 <input type="submit" value= "전송" />
-<input type="hidden" name = "action" value = "move"/>
+<input type="hidden" name = "action" value = "memberUpdate"/>
 <input type="hidden" name = "page" value = "updateResult" />
 
 
